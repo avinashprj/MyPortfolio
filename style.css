@@ -82,7 +82,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-bottom-left-radius: 1rem;
     /* margin:0px 0px */
 
