@@ -175,6 +175,19 @@ hr {
     margin-top: 80px;
     
 }
+
+.footerBlog{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 300px;
+    
+
+}
 .footer .link{
     color:white;
 
