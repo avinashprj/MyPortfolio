@@ -46,7 +46,14 @@ hr {
     text-decoration: none;
     color: var(--button-text-color);
     padding: 0.5rem 1rem;
+    
 } 
+.linksSymbol{
+    text-decoration: none;
+    color: var(--button-text-color);
+    padding: 0.5rem 1rem;
+    font-size: xx-large;
+}
 
 
 
@@ -198,7 +205,8 @@ hr {
    .footer .footer-header{
     font-weight: bold;
     font-size: large;
-}   
+}  
+
 
 /* .footer-list li {
     display: inline;
