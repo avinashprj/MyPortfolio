@@ -26,8 +26,9 @@ hr {
 /** container**/
 .container {
 
-    padding: 0rem 1rem
+    /* padding: 0rem 1rem*/
 }
+ 
 
 .container-center {
     max-width: 600px;
@@ -51,7 +52,7 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white
     
     
@@ -60,7 +61,7 @@ hr {
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 
     border: 1px solid var(--primary-color);
    
@@ -128,6 +129,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    width:100%;
 }
 
 .hero .hero-heading {
@@ -146,7 +148,7 @@ hr {
 }
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 
 }
 
