@@ -8,6 +8,7 @@
     --gray:#0a2f79;
     --black:#010611;
     
+    
 }
 
 
@@ -54,6 +55,13 @@ hr {
     padding: 0.5rem 1rem;
     font-size: xx-large;
 }
+.linksSymbol :hover{
+    transform:translate(0,-10px);
+
+}
+.footer-header .social-links .list-item-inline .linksSymbol :hover {
+    color: black;
+}
 
 
 
@@ -73,6 +81,17 @@ hr {
     border: 1px solid var(--primary-color);
    
 }
+
+.fa{
+    transition: .6s;
+
+}
+
+
+
+
+
+/* lists */
 
 .list-non-bullet {
     list-style-type: none;
@@ -137,6 +156,7 @@ hr {
     display: block;
     margin: auto;
     width:100%;
+    transition: 0.5s ease;
 }
 
 .hero .hero-heading {
