@@ -239,3 +239,22 @@ hr {
 .weak{
     font-weight: lighter;
 }
+
+
+
+
+
+
+/* Media queries */
+
+@media(max-width:500px){
+
+    
+    navigation ul{
+      padding-inline-start: 20px;
+
+    }
+    
+    
+    
+}
