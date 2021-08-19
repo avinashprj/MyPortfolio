@@ -250,7 +250,7 @@ hr {
 @media(max-width:500px){
 
     
-    navigation ul{
+    .navigation ul{
       padding-inline-start: 20px;
 
     }
