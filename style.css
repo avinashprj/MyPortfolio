@@ -263,6 +263,10 @@ hr {
     
     .flex-link{
         display:flex;
+        
+         width: 151px;
+          margin-bottom: 10px;
+       text-transform: uppercase;
     }
     .navigation ul{
       padding-inline-start: 10px;
