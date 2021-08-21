@@ -188,7 +188,8 @@ hr {
     padding-bottom: 2rem;
     border-radius:2rem;
     transition: 0.5s ease;
-    margin:10px 50px;
+    max-width:80%;
+    margin:10px auto;
      
 }
 
