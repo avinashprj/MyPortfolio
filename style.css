@@ -141,7 +141,7 @@ hr {
 
 .navigation .link {
     color: white;
-
+    text-transform:capitalize;
 }
 
 .navigation .link-active {
