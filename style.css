@@ -117,6 +117,9 @@ hr {
 
 }
 
+.navigation li :hover{
+    border-bottom:3px solid white !important;
+}
 .navigation .nav-brand {
     font-weight: bold;
     color:whitesmoke;
