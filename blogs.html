@@ -14,20 +14,31 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="nav-brand">PORTFOLIO</div>
-        <ul class="list-non-bullet nav-pills">
-            <li>
-                <a class="links " href="/">home</a>
-            </li>
-            <li>
-                <a class="links" href="/projects.html">projects</a>
-            </li>
-            <li>
-                <a class="links link-active" href="/blogs.html">blogs</a>
-            </li>
-        </ul>
-    </nav>
+  <nav class="navigation">
+    <div class="nav-brand">PORTFOLIO
+      <a id="btnHamburger" href="#" class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+   <div class="linksContainer"style="height:0;">
+    <ul id="dynamicLinks" class="list-non-bullet flex">
+      <li>
+        <a class="links link-active" href="/">home</a>
+      </li>
+      <li>
+        <a class="links" href="/projects.html">projects</a>
+      </li>
+      <li>
+        <a class="links" href="/blogs.html">blogs</a>
+      </li>
+    </ul>
+  </div>
+
+
+  </nav>
 
     <header class="hero">
 
@@ -72,7 +83,7 @@
             <li class="list-item-inline">
               <a
                 class="links linksSymbol"
-                href="https://github.com/avipj"
+                href="https://github.com/avinashprj"
                 target="_blank"
                 rel="noopener noreferrer"
                 ><i class="fa fa-github"></i>
@@ -83,7 +94,7 @@
         </div>
       </footer>
 
-
+      <script src="./js/main.js"></script>
 
 </body>
 </html>

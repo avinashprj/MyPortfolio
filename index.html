@@ -34,8 +34,16 @@
   <body>
     <div class="wrapper">
       <nav class="navigation">
-        <div class="nav-brand">PORTFOLIO</div>
-        <ul class="list-non-bullet nav-pills">
+        <div class="nav-brand">PORTFOLIO
+          <a id="btnHamburger" href="#" class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+
+       <div class="linksContainer"style="height:0;">
+        <ul id="dynamicLinks" class="list-non-bullet flex">
           <li>
             <a class="links link-active" href="/">home</a>
           </li>
@@ -46,6 +54,9 @@
             <a class="links" href="/blogs.html">blogs</a>
           </li>
         </ul>
+      </div>
+
+
       </nav>
       <header class="hero">
         <img class="hero-image" src="images/hero-1.svg" />
@@ -107,7 +118,7 @@
             <li class="list-item-inline">
               <a
                 class="links linksSymbol"
-                href="https://github.com/avipj"
+                href="https://github.com/avinashprj"
                 target="_blank"
                 rel="noopener noreferrer"
                 ><i class="fa fa-github"></i>
@@ -118,5 +129,8 @@
         </div>
       </footer>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
+
 </html>
