@@ -41,7 +41,7 @@ hr {
   padding: 2rem;
 }
 .hero .hero-image {
-  max-width: 21.875rem;
+  max-width: 15rem;
   display: block;
   margin: auto;
   width: 100%;
@@ -250,6 +250,6 @@ hr {
   }
   /* header */
   .hero .hero-image {
-    max-width: 25rem;
+    max-width: 22rem;
   }
 }
